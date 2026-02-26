@@ -33,7 +33,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/20 rounded-full px-4 py-1.5 text-blue-400 text-sm mb-6">
             <span className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></span>
-            全球 50+ 服务器节点在线
+            全球 60+ 国家服务器节点在线
           </div>
           <h1 className="text-5xl sm:text-6xl font-bold mb-6 leading-tight">
             安全、快速、
@@ -65,7 +65,7 @@ export default function Home() {
       <section className="py-12 border-y border-gray-800 bg-gray-900/50">
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
-            { value: "50+", label: "全球服务器节点" },
+            { value: "1000+", label: "全球服务器节点" },
             { value: "100万+", label: "活跃用户" },
             { value: "99.9%", label: "服务可用率" },
             { value: "256位", label: "AES 军事加密" },
@@ -108,7 +108,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 ),
                 title: "全球节点",
-                desc: "覆盖 50+ 个国家和地区的服务器节点，轻松访问全球内容，突破地域限制。",
+                desc: "覆盖 60+ 个国家和地区的 1000+ 台服务器节点，轻松访问全球内容，突破地域限制。",
               },
               {
                 icon: (
@@ -172,7 +172,7 @@ export default function Home() {
                 price: "¥29",
                 period: "/月",
                 desc: "最受欢迎的选择",
-                features: ["50+服务器节点", "无限流量", "5台设备", "军事级加密", "零日志政策", "优先客服"],
+                features: ["1000+服务器节点", "无限流量", "5台设备", "军事级加密", "零日志政策", "优先客服"],
                 cta: "立即开始",
                 highlight: true,
               },
@@ -181,7 +181,7 @@ export default function Home() {
                 price: "¥99",
                 period: "/月",
                 desc: "适合团队使用",
-                features: ["50+服务器节点", "无限流量", "无限设备", "军事级加密", "零日志政策", "专属客服", "团队管理面板"],
+                features: ["1000+服务器节点", "无限流量", "无限设备", "军事级加密", "零日志政策", "专属客服", "团队管理面板"],
                 cta: "联系我们",
                 highlight: false,
               },
@@ -260,6 +260,7 @@ export default function Home() {
           </div>
           <p className="text-gray-500 text-sm">© 2024 SecureVPN. 保留所有权利。</p>
           <div className="flex gap-4 text-gray-500 text-sm">
+            <Link href="/servers" className="hover:text-white transition-colors">服务器节点</Link>
             <a href="#" className="hover:text-white transition-colors">隐私政策</a>
             <a href="#" className="hover:text-white transition-colors">服务条款</a>
             <a href="#" className="hover:text-white transition-colors">联系我们</a>
