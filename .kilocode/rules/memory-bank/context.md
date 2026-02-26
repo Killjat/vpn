@@ -14,6 +14,7 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] ESLint configuration
 - [x] Memory bank documentation
 - [x] Recipe system for common features
+- [x] SecureVPN 用户注册网站（主页落地页 + 注册页面 + 注册表单组件）
 
 ## Current Structure
 
