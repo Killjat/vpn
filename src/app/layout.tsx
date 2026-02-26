@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js Template",
-  description: "A minimal Next.js starter template",
+  title: "SecureVPN - 快速安全的VPN服务",
+  description: "注册SecureVPN，享受高速、安全、匿名的网络体验。保护您的隐私，畅游全球互联网。",
 };
 
 export default function RootLayout({
