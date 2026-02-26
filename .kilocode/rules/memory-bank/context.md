@@ -15,6 +15,8 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] Memory bank documentation
 - [x] Recipe system for common features
 - [x] SecureVPN 用户注册网站（主页落地页 + 注册页面 + 注册表单组件）
+- [x] 全球服务器节点展示页面 /servers（6大洲、60+国家、55+节点，含延迟/负载/状态展示）
+- [x] 主页数据更新（50+ → 1000+ 服务器节点，页脚添加服务器节点链接）
 
 ## Current Structure
 
